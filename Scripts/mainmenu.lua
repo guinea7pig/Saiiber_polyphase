@@ -6,7 +6,8 @@ end
 
 function mainmenu:Tick(deltaTime)
 if(Input.IsGamepadPressed(home))
-exit(0)
+Engine.GarbageCollect()
+Engine.Quit()
 end
 end
 

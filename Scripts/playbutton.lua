@@ -8,5 +8,5 @@ function playbutton:Tick(deltaTime)
 end
 
 function playbutton:OnActivated()
-playbutton:LoadScene(SC_Defualt,false)
+self.world:LoadScene(SC_Defualt,false)
 end
