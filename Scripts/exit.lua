@@ -1,13 +1,6 @@
 exit = {}
-
-function exit:Create()
-end
-
-function exit:Tick(deltaTime)
-
-end
-
 function exit:OnActivated()
+Log.Debug(exiting)
 Engine.GarbageCollect()
 Engine.Quit()
 end

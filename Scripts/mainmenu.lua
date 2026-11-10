@@ -8,7 +8,7 @@ function mainmenu:Tick(deltaTime)
 if(Input.IsGamepadPressed(home))
 Engine.GarbageCollect()
 Engine.Quit()
-end
+--so bad with the double end functons
 end
 
 

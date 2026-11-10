@@ -1,12 +1,5 @@
 playbutton = {}
-
-function playbutton:Create()
-end
-
-function playbutton:Tick(deltaTime)
-
-end
-
 function playbutton:OnActivated()
+Debug.Log(changing scene)
 self.world:LoadScene("SC_Default",false)
 end
