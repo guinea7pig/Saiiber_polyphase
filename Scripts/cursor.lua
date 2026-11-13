@@ -5,12 +5,12 @@ end
 
 function cursor:Tick(deltaTime)
 local irX, irY = Input.GetTouchPosition(1)
-self.Widget:setY(irX)
-self.Widget:setX(irY)
+--self:setY(irX)
+--self:setX(irY)
 if irX>=0 and irY>=0 then  --i forgot this how if statments work in lua
-Node:SetVisible(true)
+--Node:SetVisible(true)
 else 
-Node:SetVisible(false)
+--Node:SetVisible(false)
 end
 end
 

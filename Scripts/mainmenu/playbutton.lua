@@ -1,8 +1,6 @@
 playbutton = {}
 function playbutton:OnActivated()
-self.world:LoadScene("Gamescene",false)
+self.world:LoadScene("gamescene",false)
 Engine.GarbageCollect()
 --garbage collect stuff
-
-
 end
