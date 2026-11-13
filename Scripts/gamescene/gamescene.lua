@@ -1,18 +1,18 @@
 gamescene = {}
 
-pause=Engine.IsPaused()
+pause = Engine.IsPaused()
 function gamescene:Create()
-Renderer.EnableStatsOverlay(enable, mode="Performance")
+
 end
 
 
 function gamescene:Tick(deltaTime)
-if(Input.IsGamepadPressed(home))
+if(Input.IsGamepadPressed(Gamepad.Home))
 Engine.GarbageCollect()
 Engine.Quit()
 end
 
-if(Input.IsGamepadPressed(minus))
+if(Input.IsGamepadPressed(Gamepad.minus))
 pause=true
 end
 

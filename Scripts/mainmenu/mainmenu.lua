@@ -1,11 +1,12 @@
 mainmenu = {}
 
 function mainmenu:Create()
---menumusic = Audio3D;GetSoundWaver()
+--menumusic = self:GetSoundWave() --dont know what format this supports
+--PlaySound2D()
 end
 
 function mainmenu:Tick(deltaTime)
-if(Input.IsGamepadPressed(home))
+if(Input.IsGamepadPressed(Gamepad.home))
 Engine.GarbageCollect()
 Engine.Quit()
 end

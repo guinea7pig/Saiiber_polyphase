@@ -12,6 +12,8 @@ end
 function fx:Tick(deltaTime)
 --self.curot=self.curot + (60* deltaTime)
 self.Node3D:SetRotation(60*deltaTime)
+self:SetPositon(Vec(0,0,1*deltaTime))--would 1 make it go slower?????
 self.Node3D:UpdateTransform(false)
+
 end
 

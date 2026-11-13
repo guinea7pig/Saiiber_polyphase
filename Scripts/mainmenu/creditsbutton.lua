@@ -1,4 +1,5 @@
 credits = {}
-function Credits:OnActivated()
-self.world:LoadScene("Credits",false)
+function credits:OnActivated()
+Engine.GarbageCollect()
+self.world:LoadScene("credits",false)
 end

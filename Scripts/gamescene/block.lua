@@ -1,6 +1,9 @@
 block = {}
 
 function block:Create()
+self:EnablePhysics(false)
+self:EnableCollision(false)
+self:EnableOverlaps(true)
 end
 
 function block:Tick(deltaTime)
