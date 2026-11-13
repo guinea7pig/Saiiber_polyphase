@@ -1,4 +1,5 @@
 settingsbutton = {}
 function settingsbutton:OnActivated()
-self.world:LoadScene("Settings",false)
+self.world:LoadScene("settings",false)
+Engine.GarbageCollect()
 end
