@@ -1,5 +1,5 @@
-settingsbutton = {}
-function settingsbutton:OnActivated()
-self.world:LoadScene("settings",false)
+settingbutton = {}
+function settingbutton:OnActivated()
+self.world:LoadScene("settingsmenu",false)
 Engine.GarbageCollect()
 end
