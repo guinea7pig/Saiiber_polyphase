@@ -8,6 +8,7 @@ self:EnablePhysics(false)
 self:EnableOverlaps(false)
 
 end
+
 --i think this should be moving forward
 function fx:Tick(deltaTime)
 
