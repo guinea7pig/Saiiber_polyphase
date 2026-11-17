@@ -3,6 +3,9 @@ mainmenu = {}
 function mainmenu:Create()
 --menumusic = self:GetSoundWave() --dont know what format this supports
 --PlaySound2D()
+Renderer.EnableStatsOverlay(enable, mode="Performance")
+Renderer.EnableConsole(enable)
+local padType = input.GetGamepadType
 end
 
 
