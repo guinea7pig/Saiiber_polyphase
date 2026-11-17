@@ -7,7 +7,7 @@ self:EnableOverlaps(true)
 end
 
 function block:Tick(deltaTime)
-self.SetPosition(Vec(0,5 * deltaTime,0))
+self:SetPosition(Vec(0,0, 60 * deltaTime))
 --not going to rotate aint it
 end
 
