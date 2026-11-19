@@ -21,6 +21,6 @@ end
 --base block
 --self:SetRotation(Vec(0,-10,0)
 --right
---self:SetRotation(Vec(0,-10,0)
+--self:SetRotation(Vec(10,0,0)
 
 
