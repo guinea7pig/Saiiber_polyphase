@@ -1,7 +1,7 @@
 gamescene = {}
-
-
 function gamescene:Create()
+--Audio.PlaySound2D()
+--Assets.LoadAsset()
 end
 
 

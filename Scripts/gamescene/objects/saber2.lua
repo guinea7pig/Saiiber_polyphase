@@ -2,7 +2,7 @@ saber2 = {}
 
 
 function saber2:Create()
-self:SetRotation(Vec(0,0,0))--set to default
+self:SetRotation(Vec(0,0,0))-
 end
 
 function saber2:Tick(deltaTime)
