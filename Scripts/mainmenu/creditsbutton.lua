@@ -1,5 +1,5 @@
 creditsbutton = {}
-function credits:OnActivated()
+function creditsbutton:OnActivated()
 Engine.GarbageCollect()
-self.world:LoadScene("credits",false)
+self.world:LoadScene("credits scene",false)
 end
