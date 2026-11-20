@@ -4,12 +4,13 @@ function block:Create()
 self:EnablePhysics(false)
 self:EnableCollision(false)
 self:EnableOverlaps(true)
+--self:SetPosition(Vec(0,0,-83))
 end
 
 function block:Tick(deltaTime)
-self:SetPosition(Vec(0,0, 60*deltaTime))
+--self:SetPosition(Vec(0,0, 60*deltaTime))
 local pos = self:GetPosition()
-pos.z = pos.z + (5 * deltaTime)
+pos.z = pos.z + (20 * deltaTime)
 self:SetPosition(Vec(0,0, pos.z))
 self:UpdateTransform(false)
 end
