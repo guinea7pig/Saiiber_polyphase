@@ -7,7 +7,7 @@ self:EnableOverlaps(true)
 end
 
 function block:Tick(deltaTime)
-self:SetPosition(Vec(0,0, 60*deltaTime))
+--self:SetPosition(Vec(0,0, 60*deltaTime))
 local pos = self:GetPosition()
 pos.z = pos.z + (5 * deltaTime)
 self:SetPosition(Vec(0,0, pos.z))
@@ -22,5 +22,7 @@ end
 --self:SetRotation(Vec(0,-10,0)
 --right
 --self:SetRotation(Vec(10,0,0)
+--left 
+--self:SetRotation(Vec(-10,0,0)
 
 
