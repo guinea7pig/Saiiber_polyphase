@@ -4,7 +4,6 @@ function gamescene:Create()
 --Assets.LoadAsset()
 end
 
-
 function gamescene:Tick(deltaTime)
 if(Input.IsGamepadPressed(Gamepad.Home))then
 Engine.GarbageCollect()

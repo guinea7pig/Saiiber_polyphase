@@ -24,5 +24,7 @@ end
 --self:SetRotation(Vec(0,-10,0)
 --right
 --self:SetRotation(Vec(10,0,0)
+--left 
+--self:SetRotation(Vec(-10,0,0)
 
 
