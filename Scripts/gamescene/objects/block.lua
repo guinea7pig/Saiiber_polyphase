@@ -12,6 +12,7 @@ function block:Tick(deltaTime)
 local pos = self:GetPosition()
 pos.z = pos.z + (20 * deltaTime)
 self:SetPosition(Vec(0,0, pos.z))
+--self:AddRotation(Vec( 0,0,5*deltaTime)
 self:UpdateTransform(false)
 end
 
